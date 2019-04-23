@@ -1,6 +1,6 @@
 console.log("keys loaded");
 
 exports.spotify={
-id: process.env.MYID,
-secret: process.env.MYSECRET
+id: process.env.SPOTIFY_ID,
+secret: process.env.SPOTIFY_SECRET
 }
