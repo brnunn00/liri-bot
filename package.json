@@ -1,8 +1,15 @@
 {
   "name": "liri-bot",
   "version": "1.0.0",
-  "description": "Language Interpretation and Recognition Interface\r To-dos:\r 1)Setup API keys, store in env\r 2",
+  "description": "Language Interpretation and Recognition Interface To-dos: 1)Setup API keys, store in env 2",
   "main": "keys.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,11 +23,5 @@
   "bugs": {
     "url": "https://github.com/brnunn00/liri-bot/issues"
   },
-  "homepage": "https://github.com/brnunn00/liri-bot#readme",
-  "dependencies": {
-    "axios": "^0.18.0",
-    "dotenv": "^7.0.0",
-    "moment": "^2.24.0",
-    "node-spotify-api": "^1.1.1"
-  }
+  "homepage": "https://github.com/brnunn00/liri-bot#readme"
 }
