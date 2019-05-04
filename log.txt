@@ -1,67 +1,26 @@
-Data for "all the small things": 
-Artist: blink-182
-Album: Enema Of The State
-Open on Spotify: https://open.spotify.com/artist/6FBDaR13swtiWwGhX1WQsP
-NO SEARCH TERM PROVIDEDData for "": 
-Artist: Harry Styles
-Album: Harry Styles
-Open on Spotify: https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3
-NO SEARCH TERM PROVIDEDData for "": 
-Artist: Harry Styles
-Album: Harry Styles
-Open on Spotify: https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3
-NO SEARCH TERM PROVIDED
-Data for "": 
-Artist: Harry Styles
-Album: Harry Styles
-Open on Spotify: https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3
-NO SEARCH TERM PROVIDED
-Data for "": 
-Artist: 3rd Bass
-Album: Derelicts Of Dialect
-Open on Spotify: https://open.spotify.com/artist/6EFL6smxzRtpwlQvZFldUc
-NO SEARCH TERM PROVIDED
-Data for "": 
-NO SEARCH TERM PROVIDED
-Data for "": 
-Artist: Atmosphere
-Album: The Family Sign [Deluxe Edition]
-Open on Spotify: https://open.spotify.com/artist/1GAS0rb4L8VTPvizAx2O9J
-NO SEARCH TERM PROVIDED
-Data for "": 
-Artist: Atmosphere
-Album: The Family Sign [Deluxe Edition]
-Open on Spotify: https://open.spotify.com/artist/1GAS0rb4L8VTPvizAx2O9J
-Data for "the sign": 
-Artist: Harry Styles
-Album: Harry Styles
-Open on Spotify: https://open.spotify.com/artist/6KImCVD70vtIoJWnq6nGn3
-NO SEARCH TERM PROVIDED
-Showing results for: Blink+182Perfoming at: Vans Warped Tour 25th Anniversary
-Located at: Atlantic City, United States
-Perfoming on: 06/29/2019NO SEARCH TERM PROVIDED
-Showing results for: Blink+182
-Perfoming at: Vans Warped Tour 25th Anniversary
-Located at: Atlantic City, United States
-Perfoming on: 06/29/2019Results for: tame impala": 
-Perfoming at: Shaky Knees Music Festival
-Located at: Atlanta, United States
-Perfoming on: 05/05/2019Results for: "tame impala": 
-Perfoming at: Shaky Knees Music Festival
-Located at: Atlanta, United States
-Perfoming on: 05/05/2019Data for "": 
-Artist: Backstreet Boys
-Album: The Hits--Chapter One
-Open on Spotify: https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7
-Data for "": 
-Artist: Backstreet Boys
-Album: The Hits--Chapter One
-Open on Spotify: https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7
-Data for ""I Want it That Way"": 
-Artist: Backstreet Boys
-Album: The Hits--Chapter One
-Open on Spotify: https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7
 Data for "I Want it That Way": 
 Artist: Backstreet Boys
 Album: The Hits--Chapter One
 Open on Spotify: https://open.spotify.com/artist/5rSXSAkZ67PYJSvpUpkOr7
+Title: "": 
+Released: undefined
+Country Produced: undefined
+
+Plot: undefined
+
+Actors: undefined
+Title: "the mask": 
+Released: 1994
+Country Produced: USA
+
+Plot: Bank clerk Stanley Ipkiss is transformed into a manic superhero when he wears a mysterious mask.
+
+Actors: Jim Carrey, Peter Riegert, Peter Greene, Amy Yasbeck
+NO SEARCH PROVIDED
+Title: "Mr. Nobody": 
+Released: 2009
+Country Produced: Belgium, Germany, Canada, France, USA, UK
+
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham

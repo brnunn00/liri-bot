@@ -68,12 +68,12 @@ function movieSearch(term) {
   let rando = false;
   let url = "http://www.omdbapi.com/?apikey=trilogy&t=";
   var strB = '';
-  if (term == undefined) {
+  if (term == undefined || term == '') {
     rando = true;
-    term = "Mr.Nobody";
+    term = "Mr. Nobody";
   }
   url += term;
-
+console.log(url);
   axios.get(url).then(function (response) {
     let data = response.data;
     if (rando) {
@@ -156,9 +156,23 @@ function newErr(err) {
 }
 
 function writeData(dd) {
-  fs.appendFile("log.txt", dd, function (err) {
+  fs.access("log.txt", fs.F_OK, (err) => {
     if (err) {
-      return console.log(err);
-    }
-  });
+      fs.writeFile("log.txt",dd, function(err){
+        if (err){
+          newErr("issue writing file");
+        }
+      });
+      return
+    } else { 
+
+    fs.appendFile("log.txt", dd, function (err) {
+      if (err) {
+        return console.log(err);
+      }
+    });
+  }
+  
+  })
+  
 }
