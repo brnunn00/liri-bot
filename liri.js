@@ -50,9 +50,12 @@ function spotifySearch(term) {
       var strB = '';
       if (rando) {
         strB += "NO SEARCH TERM PROVIDED\n";
-      }
+        strB += 'Data for "' + term + '": \n';
+      }else{
       strB += 'Data for "' + searchDisplay + '": \n';
-     
+      }
+      // console.log(data.tracks);
+      strB += "Song title: " + data.tracks.items[0].name + "\n";
       strB += "Artist: " + data.tracks.items[0].album.artists[0].name + "\n";
       strB += "Album: " + data.tracks.items[0].album.name + "\n";
       strB += "Open on Spotify: " + data.tracks.items[0].album.artists[0].external_urls.spotify + "\n";
@@ -76,11 +79,16 @@ function movieSearch(term) {
 console.log(url);
   axios.get(url).then(function (response) {
     let data = response.data;
-    if (rando) {
+    // console.log(data.Error);
+    if (data.Error == 'Movie not found!'){
+      console.log("Sorry, couldn't find that movie");
+    } else{
+        if (rando) {
       strB += "NO SEARCH PROVIDED\n";
       strB += 'Title: "' + term + '": \n';
     }else{
     // data = data.Search[0];
+    
     strB += 'Title: "' + searchDisplay + '": \n';
     }
     strB += "Released: " + data.Year + "\n";
@@ -91,6 +99,7 @@ console.log(url);
     strB += "Actors: " + data.Actors + "\n";
     console.log(strB);
     writeData(strB);
+  }
   })
 }
 
@@ -109,10 +118,12 @@ function concertSearch(term) {
 
   axios.get(url).then(function (response) {
     let data = response.data[0];
+
     // console.log(data);
     // Name of the venue
     // Venue location
     // Date of the Event (use moment to format this as "MM/DD/YYYY")
+    if (data != undefined){
     let dt = moment(data.datetime).format('MM/DD/YYYY');
     if (rando){
       strB+="NO SEARCH TERM PROVIDED\nShowing results for: " + term+"\n";
@@ -124,7 +135,9 @@ function concertSearch(term) {
     strB += "Perfoming on: " + dt;
     console.log(strB);
     writeData(strB);
-
+  } else {
+    console.log("Couldn't find any concerts for " + searchDisplay);
+  }
   })
 
 }
